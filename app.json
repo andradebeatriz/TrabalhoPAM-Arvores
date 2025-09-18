@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "Projeto",
+    "slug": "Projeto",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/arvore.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/arvore.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/arvore.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "favicon": "./assets/arvore.png"
+    }
+  }
+}
