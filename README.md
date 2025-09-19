@@ -1,11 +1,80 @@
-# Sample Snack app
+# Catálogo de Árvores - React Native App
+Este é um aplicativo React Native que exibe um catálogo de árvores de diversas partes do mundo, com informações detalhadas sobre cada espécie.
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
+## 📱 Sobre o Projeto
+O aplicativo apresenta uma lista de árvores com suas informações básicas. Ao tocar em qualquer item da lista, o usuário pode visualizar detalhes completos da árvore selecionada, incluindo imagem, descrição e preço.
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo cli](https://docs.expo.dev/get-started/installation/#expo-cli)).
+### Funcionalidades
+- Listagem de árvores com nome, origem e preço
+- Modal de detalhes com imagem e descrição completa
+- Interface amigável e responsiva
+- Design com tema natural (tons de verde)
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
+## 🌳 Árvores Incluídas
+**O catálogo inclui as seguintes árvores:**
 
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.dev/c/expo-dev-tools/61) or [Discord](https://chat.expo.dev/).
+- Carvalho (Europa)
+- Ipê Amarelo (Brasil)
+- Baobá (África)
+- Salgueiro (Ásia)
+- Sequoia (América do Norte)
+- Cedro (Mediterrâneo)
+- Cerejeira (Ásia)
+- Araucária (América do Sul)
 
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
+### 🛠️ Tecnologias Utilizadas
+- React Native
+- React Hooks (useState)
+- Componentes básicos do React Native (View, Text, FlatList, etc.)
+- Modal para detalhes
+- Estilos com StyleSheet
+
+### 📦 Instalação e Execução
+Para executar este projeto localmente:
+
+**1. Clone o repositório:**
+
+```bash
+git clone https://github.com/andradebeatriz/TrabalhoPAM-Arvores.git
+```
+**2. Navegue até o diretório do projeto:**
+
+```bash
+cd TrabalhoPAM-Arvores
+```
+
+**3. Instale as dependências:**
+
+```bash
+npm install
+```
+**4. Execute o projeto:**
+
+```bash
+npx react-native run-android
+# ou
+npx react-native run-ios
+```
+
+### 📁 Estrutura de Arquivos
+```bash
+TrabalhoPAM-Arvores/
+├── assets/
+│   └── img/
+│       ├── carvalho.png
+│       ├── ipeamarelo.png
+│       ├── baoba.png
+│       ├── salgueiro.png
+│       ├── sequoia.png
+│       ├── cedro.png
+│       ├── cerejeira.png
+│       └── araucaria.png
+├── App.js
+├── package.json
+└── README.md
+```
+
+## 👥 Desenvolvido por:
+- Beatriz Andrade e Sophia Rosa - 2025
+
+*Este projeto foi desenvolvido para fins acadêmicos na Etec Fernando Prestes - Extensão Fatec.*
